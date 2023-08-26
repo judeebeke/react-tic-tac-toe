@@ -1,0 +1,17 @@
+.boxes {
+    position: relative;
+    width: max-content;
+    height: auto;
+    margin: auto;
+    border: 5px solid #9032ad;
+    background-color: #a56fbd;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}   
+
+@media (min-width: 450px) {
+    .boxes {
+        width: 20rem;
+    }
+}
