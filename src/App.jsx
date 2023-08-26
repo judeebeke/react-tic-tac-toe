@@ -139,7 +139,7 @@ const App = () => {
         <h3>TIC TAC TOE</h3>
         <div className="scores">
           <h4>Player X </h4>
-          <span>{isXUserWin / 2}</span>:<span> {isOUserWin / 2}</span> <h4>Player O</h4>
+          <span>{isXUserWin}</span>:<span> {isOUserWin}</span> <h4>Player O</h4>
           <br />
         </div>
           {isGameWinner && <p style={{fontWeight: "bold", color: "#fff"}}><strong>Player {isGameWinner} is the winner!</strong></p>}
